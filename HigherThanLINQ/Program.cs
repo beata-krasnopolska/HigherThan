@@ -14,9 +14,9 @@ namespace HigherThanLINQ
             List<int> userList = new List<int>();
             Console.WriteLine("Input the number of members on the List");
             int amount = int.Parse(Console.ReadLine());
-            for (int i =0; i<= amount; i++)
+            for (int i =0; i< amount; i++)
             {
-                Console.WriteLine("Number {0} : ", i);
+                Console.WriteLine("Number {0} : ", i+1);
                 int listMemer = int.Parse(Console.ReadLine());
                 userList.Add(listMemer);
             }
